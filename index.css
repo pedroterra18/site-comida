@@ -1,0 +1,273 @@
+*{margin: 0;
+    box-sizing: border-box;
+
+
+
+}
+Header
+{ height: 40px;
+    background-color:lightgray;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(6,1fr);
+   
+}
+header div{ border: solid;}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 80px 80px 431px 270px 50px;
+}
+
+#main div{
+    border: solid 1px;}
+
+#logo{
+    grid-column: 2;}
+
+#nav{
+    grid-column: 3/6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+
+  #espaco{
+   
+    text-align: center;
+    justify-content: space-around ;
+   display: flex;
+   flex-direction: column;
+
+  }
+
+  #text{
+   flex-direction: row;
+    text-align: center;
+    justify-content: space-around ;
+   display: flex;
+ 
+
+  }
+
+    
+    #menu{grid-column: 2;
+    grid-row: 2/4;}
+    #busca{grid-row: 2;
+    grid-column: 3/6;}
+    #banner{ grid-row: 3;
+        grid-column: 3/6;
+ 
+    }
+    
+
+    #prod01{grid-row: 4;
+    grid-column: 2;}
+    #prod02{grid-row: 4;
+        grid-column: 3;}
+        #prod03{grid-row: 4;
+            grid-column: 4;}
+            #prod04{grid-row: 4;
+                grid-column: 5;}
+
+
+                #k{
+                    display: flex;
+                    width: 15%;
+
+                    justify-content: space-around;
+                }
+
+
+
+                #a{
+                    height: 20px;
+                }
+
+
+                #color{
+                    background-color: green;
+                    color: white;
+                }
+
+                #all{
+                    background-color:#7fad39;
+                    color: white;
+
+                
+                    height: 50px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+
+                }
+
+
+                #esp{
+                    display: flex;
+                justify-content:space-between;
+
+                }
+
+                #fruta{
+                    display: grid;
+                  grid-template-columns: repeat(6,1fr);
+                  grid-template-rows: 90px 200px 70px 50px 200px;
+
+                }
+
+                #carne{
+                    grid-column: 2;
+                    grid-row: 2;
+                text-align: center;
+                display: flex;
+                align-items: center;
+
+                }
+
+
+
+                #banana{
+                    grid-column: 3;
+                    grid-row: 2;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+
+                }
+
+                #kaki{
+                    grid-column: 4;
+                    grid-row: 2;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+
+                }
+
+                #melancia{
+                    grid-column: 5;
+                    grid-row: 2;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                align-items: center;
+
+                }
+
+                
+                #carne01{
+                    grid-column: 2;
+                    grid-row: 3;
+                    text-align: center;
+                }
+
+                #banana01{
+                    grid-column: 3;
+                    grid-row: 3;
+                    text-align: center;
+                }
+
+                #kaki01{
+                    grid-column: 4;
+                    grid-row: 3;
+                    text-align: center;
+                }
+
+                #melancia01{
+                    grid-column: 5;
+                    grid-row: 3;
+                    text-align: center;
+                }
+
+                #uva{
+                    grid-column: 2;
+                    grid-row: 5;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                }
+
+                #hamburger {
+
+                    grid-column: 3;
+                    grid-row:5 ;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                }
+
+                #manga{
+                    grid-column: 4;
+                    grid-row: 5;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                }
+
+                #maca{
+
+                    grid-column: 5;
+                    grid-row: 5;
+                    text-align: center;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                }
+                
+
+                #uva01{
+
+                    grid-column: 2;
+                    grid-row: 8;
+                    text-align: center;
+
+                }
+
+                #hamburger01{
+                    grid-column: 3;
+                    grid-row: 8;
+                    text-align: center;
+
+                }
+
+                #manga01{
+                    grid-column: 4;
+                    grid-row:8;
+                    text-align: center;
+
+                }
+
+                #maca01{
+                    grid-column:5 ;
+                    grid-row:8 ;
+                    text-align: center;
+
+                }
+
+
+                #imag
+                {
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                    grid-template-rows: 400px ;
+  
+
+                }
