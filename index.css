@@ -271,3 +271,9 @@ header div{ border: solid;}
   
 
                 }
+
+
+#click_nav{
+	background-color: white;
+	border: solid 1px #ebebeb;
+}
